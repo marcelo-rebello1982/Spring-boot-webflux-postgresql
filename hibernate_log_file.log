@@ -1,0 +1,130 @@
+"29-09-2021 [restartedMain] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 11604 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [restartedMain] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""29-09-2021 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""29-09-2021 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 JPA repository interfaces.
+""29-09-2021 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""29-09-2021 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""29-09-2021 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+""29-09-2021 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""29-09-2021 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3146 ms
+""29-09-2021 [restartedMain] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""29-09-2021 [restartedMain] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""29-09-2021 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""29-09-2021 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""29-09-2021 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""29-09-2021 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+""29-09-2021 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""29-09-2021 [restartedMain] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ /error}: error(HttpServletRequest)
+	{ /error, produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""29-09-2021 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+""29-09-2021 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+""29-09-2021 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""29-09-2021 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""29-09-2021 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""29-09-2021 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 59fcee85-a6f6-497e-bc11-46972ebff97d
+
+""29-09-2021 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49323317, org.springframework.security.web.context.SecurityContextPersistenceFilter@6987cb86, org.springframework.security.web.header.HeaderWriterFilter@2187293f, org.springframework.security.web.csrf.CsrfFilter@afdd94a, org.springframework.security.web.authentication.logout.LogoutFilter@479ceb4b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78de383b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1048b124, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7e0fe132, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51e4c0b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f2767b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e6631d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@678ab285, org.springframework.security.web.session.SessionManagementFilter@2d71d173, org.springframework.security.web.access.ExceptionTranslationFilter@5682ea79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5404e731]
+""29-09-2021 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""29-09-2021 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""29-09-2021 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""29-09-2021 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""29-09-2021 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""29-09-2021 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""29-09-2021 [restartedMain] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Started RegistrationLoginSpringBootSecurityThymeleafApplication in 6.876 seconds (JVM running for 8.888)
+""29-09-2021 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""29-09-2021 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""29-09-2021 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""29-09-2021 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""29-09-2021 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""29-09-2021 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+""29-09-2021 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""29-09-2021 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""29-09-2021 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""29-09-2021 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""29-09-2021 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 10336 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 R2DBC repository interfaces.
+""29-09-2021 [main] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [main] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+""29-09-2021 [main] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/r2dbc/ConnectionFactoryConfigurations$Pool.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.r2dbc.pool.ConnectionPool]: Factory method 'connectionFactory' threw exception; nested exception is org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBuilder$ConnectionFactoryBeanCreationException: Failed to determine a suitable R2DBC Connection URL
+""29-09-2021 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""29-09-2021 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a ConnectionFactory: 'url' attribute is not specified and no embedded database could be configured.
+
+Reason: Failed to determine a suitable R2DBC Connection URL
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 3440 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 R2DBC repository interfaces.
+""29-09-2021 [main] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [main] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+""29-09-2021 [main] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8080
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Started RegistrationLoginSpringBootSecurityThymeleafApplication in 3.446 seconds (JVM running for 4.164)
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [931cde2f-1] HTTP GET "/"
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [931cde2f-1] Mapped to ResourceWebHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/"]
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.r.resource.ResourceWebHandler - [931cde2f-1] Resource not found
+""29-09-2021 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [931cde2f-1] Resolved [ResponseStatusException: 404 NOT_FOUND] for HTTP GET /
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.core.codec.CharSequenceEncoder - [931cde2f-1] Writing "<html><body><h1>Whitelabel Error Page</h1><p>This application has no configured error view, so you  (truncated)...
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [931cde2f-1] Completed 404 NOT_FOUND
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 9836 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 R2DBC repository interfaces.
+""29-09-2021 [main] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [main] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+""29-09-2021 [main] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8080
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Started RegistrationLoginSpringBootSecurityThymeleafApplication in 5.1 seconds (JVM running for 5.763)
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0fe880f5-1] HTTP GET "/"
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - [0fe880f5-1] Mapped to ResourceWebHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/"]
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.r.resource.ResourceWebHandler - [0fe880f5-1] Resource not found
+""29-09-2021 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [0fe880f5-1] Resolved [ResponseStatusException: 404 NOT_FOUND] for HTTP GET /
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.core.codec.CharSequenceEncoder - [0fe880f5-1] Writing "<html><body><h1>Whitelabel Error Page</h1><p>This application has no configured error view, so you  (truncated)...
+""29-09-2021 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0fe880f5-1] Completed 404 NOT_FOUND
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 13516 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 R2DBC repository interfaces.
+""29-09-2021 [main] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [main] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+""29-09-2021 [main] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8080
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Started RegistrationLoginSpringBootSecurityThymeleafApplication in 3.299 seconds (JVM running for 4.028)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Starting RegistrationLoginSpringBootSecurityThymeleafApplication on Server with PID 9224 (D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql\target\classes started by MarceloP in D:\Projetos JAVA\Workspace\Spring-boot-webflux-postgresql)
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - No active profile set, falling back to default profiles: default
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+""29-09-2021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 R2DBC repository interfaces.
+""29-09-2021 [main] DEBUG o.s.w.r.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""29-09-2021 [main] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+""29-09-2021 [main] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+""29-09-2021 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8080
+""29-09-2021 [main] INFO  n.j.s.RegistrationLoginSpringBootSecurityThymeleafApplication - Started RegistrationLoginSpringBootSecurityThymeleafApplication in 3.453 seconds (JVM running for 4.1)
+"
